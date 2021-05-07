@@ -234,7 +234,7 @@ class Client {
         console.log('[GodBots] Stopped bots!');
         $('#toggleButton').replaceWith(`<button id='toggleButton' onclick="window.client.startBots(localStorage.getItem('botAmount'));" class='btn btn-success'>Start Bots</button>`);
         this.startedBots = false;
-		$('#botsaliveone').replaceWith(`<button id='botsaliveone' class='btn btn-danger'>Bots alive: 0/100</button>`);
+		$('#botsaliveone').replaceWith(`<button id='botsaliveone' class='btn btn-danger'>Bots alive: 0/57</button>`);
     }
 
     splitBots() {
